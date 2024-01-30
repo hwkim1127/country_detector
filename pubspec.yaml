@@ -1,6 +1,6 @@
 name: country_detector
 description: "flutter plugin for android and ios that detects a user's country code"
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://hyunwookim.net
 repository: https://github.com/hwkim1127/country_detector.git
 
