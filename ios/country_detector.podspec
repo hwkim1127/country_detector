@@ -11,7 +11,7 @@ plugin to detect a user's country for android and ios
                        DESC
   s.homepage         = 'https://hyunwookim.net'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Your Company' => 'me@hyunwookim.net' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
