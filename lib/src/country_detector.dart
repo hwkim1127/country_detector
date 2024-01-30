@@ -3,13 +3,11 @@ import 'country_detector_platform_interface.dart';
 class CountryDetector {
   /// Returns whatever available country code detected
   /// First From SIM, then Network, then Locale
-  /// iOS does not support Network Country Code
   Future<String?> isoCountryCode() {
     return CountryDetectorPlatform.instance.isoCountryCode();
   }
 
-  /// This code returns country from all available method
-  /// iOS has no support for Network Country Code
+  /// This code returns country from all available sources
   Future<AllCountries> detectAll() {
     return CountryDetectorPlatform.instance.detectAll();
   }
