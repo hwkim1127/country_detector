@@ -65,7 +65,14 @@ class CountryDetectorPlugin : FlutterPlugin, MethodCallHandler {
   }
 
   fun detectISOCountryCode(): String? {
-    return detectSIMCountryCode() ?: detectNetworkCountryCode() ?: detectLocaleCountryCode()
+    var countryCode = detectSIMCountryCode()
+    if (countryCode == null || countryCode == "--") {
+      countryCode = detectNetworkCountryCode()
+    }
+    if (countryCode == null || countryCode == "--") {
+      countryCode = detectNetworkCountryCode()
+    }
+    return countryCode ?: ""
   }
 
   private fun detectSIMCountryCode(): String? {

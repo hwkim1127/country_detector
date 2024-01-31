@@ -15,7 +15,7 @@ class MethodChannelCountryDetector extends CountryDetectorPlatform {
   Future<String?> isoCountryCode() async {
     final countryCode =
         await methodChannel.invokeMethod<String>('isoCountryCode');
-    return countryCode;
+    return countryCode?.toUpperCase();
   }
 
   /// invokes method channel detectAll

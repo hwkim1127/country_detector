@@ -6,6 +6,7 @@ A simple plugin for android and ios that detects a user's country code
 
 - This plugin detects user's ISO country code based on SIM, Network, and Locale and returns the result as String
 - Country Code is all CAPITALIZED. For example, "kr" will be returned as "KR"
+- For some Mobile Virtual Network Operators "SIM" and "Network" isoCountryCode returns "--" only; therefore, will fallback to country code from "Locale"
 
 ## Example
 
