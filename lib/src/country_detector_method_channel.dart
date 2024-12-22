@@ -1,5 +1,4 @@
 import 'package:country_detector/country_detector.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import 'country_detector_platform_interface.dart';
@@ -7,7 +6,6 @@ import 'country_detector_platform_interface.dart';
 /// An implementation of [CountryDetectorPlatform] that uses method channels.
 class MethodChannelCountryDetector extends CountryDetectorPlatform {
   /// The method channel used to interact with the native platform.
-  @visibleForTesting
   final methodChannel = const MethodChannel('country_detector');
 
   /// invokes method channel isoCountryCode

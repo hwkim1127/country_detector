@@ -39,8 +39,8 @@ try{
 }
 ```
 - The detected values can be fetched by calling 'sim', 'network', and 'locale'
--- code from sim => allCodes.sim
--- code from network => allCodes.network
--- code from locale => allCodes.locale
+  - code from sim => allCodes.sim
+  - code from network => allCodes.network
+  - code from locale => allCodes.locale
 
 

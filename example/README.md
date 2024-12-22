@@ -1,6 +1,6 @@
-# country_detector_example
+# example
 
-Demonstrates how to use the country_detector plugin.
+A new Flutter project.
 
 ## Getting Started
 
