@@ -34,7 +34,7 @@ class AllCountries {
   @override
   int get hashCode => sim.hashCode;
 
-  /// Converts to Map<String,String>
+  /// Converts to `Map<String,String>
   Map<String, String> toMap() => {
         'sim': sim,
         'network': network,

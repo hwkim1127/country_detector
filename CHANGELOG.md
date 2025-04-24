@@ -1,3 +1,6 @@
+## 1.0.2+1
+* Fix: Comment lint error
+
 ## 1.0.2
 * **ANDROID JAVA UPDATE**: JAVA 8 -> JAVA 17
 
