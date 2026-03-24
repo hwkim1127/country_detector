@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     namespace 'com.hwkim1127.country_detector'
     
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
